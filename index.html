@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="color.js"></script>
+    <title>Desarrolo Web</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="Imagenes/Icono Civl.jpg">
+</head>
+    <body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Ingeniero Civil</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi"  onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios"  onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portafolio"  onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto"  onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Iconos del menu reponsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!-- Iconos de las redes sociales -->
+                    <div class="redes">
+                        <a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=59176768811"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://telegram.org/dlx"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Alexander Castro Matias</span>, Ingeniero Civil</h2>
+                <p class="descripcion">Soy disciplinado, responsable y comprometido con mis funciones. 
+                    A lo largo de mi trayectoria profesional de 6 años he desarrollado habilidades esenciales en 
+                    el sector industrial, sobre todo, pensamiento estratégico, resolución de problemas 
+                    industriales y toma de decisiones. </p>
+                    <a href="#portafolio">Ir a portafolio</a>
+            </div>
+        </div>
+    </section>
+<!-- SECCION SOBRE MI -->
+<section id="sobremi">
+    <div class="contenedor-foto">
+        <img src="Imagenes/ALEX.jpg" alt="">
+    </div>
+    <div class="sobremi">
+        <p class="titulo-seccion">Sobre Mi</p>
+        <h2>Hola, soy <span>Alexander Castro Matias</span></h2>
+        <h3>Ingeniero Civil</h3>
+        <p>Entre a la univeridad Privada Univalle, Universidad del Valle el año 2009 en La Paz - Bolivia
+           con la carrera Ingenieria Civil, durante mi desempeño ha sido fortuito en el avance academico
+           y en todas las labores desempeñadas, de la cual recibi una buena formacion de parte de la
+           Universidad, tambien participe en varias disciplinas de competencia optando un puesto formitable
+           concluyendo mi trayectoria fue destinado como parte de practicas a hacer construccion de 
+           carreteras a la Capital de Sucre - Padilla durante un año, posterior a ese se me fue graduado como
+           Ingenierio Civil. Posterior a eso el trabajo laboral fui contratado como supervisor en con la experiencia de un
+           año de practicas, las habilidades de trabajo fueron la base de la experencias, hoy en dia 
+           tengo la capacidad de dirigir, gestionar, realizar proyectos, ejecuatar y administrar.
+        </p>
+        <a href="#">Descargas CV</a>
+    </div>
+</section>
+<!-- SECCION DE SERVICIOS -->
+<section id="servicios">
+    <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+    <div class="fila">
+        <div class="servicio">
+        <span class="icono"><i class="fa-light fa-user-helmet-safety"></i></span>
+        <h4>Obras de Infraestructuras</h4>
+        <hr> 
+        <ul class="servicios-tag">
+            <li>Proyectos</li>
+            <li>Gestion</li>
+            <li>SEO</li>
+        </ul>
+        <p>Construccion de carreteras, puntes, lineas ferrocaril y entre otras. De tal manera abarca entre muchas como
+        aeropuertos, puertos, redes de acueducto, etc.</p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Administración de proyectos</h4>
+        <hr>
+        <ul class="servicios-tag">
+            <li>Proyectos</li>
+            <li>Gestion</li>
+            <li>SEO</li>
+        </ul>
+        <p>Planeacion de la parte organizacion de proyectos, organizar, dirigir y controlar
+            los esfuerzos de quienes controlan la empresa.
+        </p>
+      </div>
+    </div>
+    <div class="fila">
+        <div class="servicio">
+        <span class="icono"><i class="fa-light fa-user-helmet-safety"></i></span>
+        <h4>Obras de transporte</h4>
+        <hr>
+        <ul class="servicios-tag">
+            <li>Proyectos</li>
+            <li>Gestion</li>
+            <li>SEO</li>
+        </ul>
+        <p>Objetivo de aplicar los principios tecnológicos y científicos para la planificación, 
+            diseño, operación y administración de todos los modos de transporte con el fin de 
+            proveer un movimiento seguro, conveniente, económico y compatible con el medio 
+            ambiente de bienes y personas.</p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-light fa-user-helmet-safety"></i></span>
+        <h4>Inspección de obras civiles</h4>
+        <hr>
+        <ul class="servicios-tag">
+            <li>Proyectos</li>
+            <li>Gestion</li>
+            <li>SEO</li>
+        </ul>
+        <p>Abarca la supervisión y control sobre todos los aspectos de la calidad en una obra. 
+            Esto va desde su desarrollo de la obra hasta finalizado su construcción cuestión.</p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Obras de saneamiento</h4>
+        <hr>
+        <ul class="servicios-tag">
+            <li>Proyectos</li>
+            <li>Gestion</li>
+            <li>SEO</li>
+        </ul>
+        <p>Construcción de redes de agua, desagüe y alcantarillado. Además de plantas de tratamiento.</p>
+      </div>
+      
+    </div> 
+</section>
+<!-- SECCION HABILIDADES -->
+<div class="contenedor-skills" id="skills">
+    <h3>HABILIDADES</h3>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Matematicas y Fisica</p>
+            <span class="porcentaje">95%</span>
+        </div>
+        <div class="barra">
+        <div id="mateyfisi" class="barra-progreso1"></div>
+    </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Observador y Analitco</p>
+            <span class="porcentaje">98%</span>
+        </div>
+        <div class="barra">
+        <div id="obsyana" class="barra-progreso2"></div>
+    </div>
+    </div>
+    
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Vocacion por las ciencias exactas</p>
+            <span class="porcentaje">95%</span>
+        </div>
+        <div class="barra">
+        <div id="voca" class="barra-progreso3">
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Inovacion de proyectos</p>
+            <span class="porcentaje">95%</span>
+        </div>
+        <div class="barra">
+        <div id="inova" class="barra-progreso4"></div>
+    </div>
+    </div>
+</div>
+</div>
+<!-- SECCCION PORTAFOLIO -->
+<section id="portafolio">
+    <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="Imagenes/ingep1.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion del proeyecto</h4>
+                <p>Proyectos de Ingenieria Industrial </p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="Imagenes/ingep2.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion del proeyecto</h4>
+                <p>Proyectos de Ingenieria Geotecnica </p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="Imagenes/ingep3.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion del proeyecto</h4>
+                <p>Proyectos de Ingenieria Ambiental </p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="Imagenes/ingep4.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion del proeyecto</h4>
+                <p>Proyectos de Ingenieria Hidraulicas </p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="Imagenes/ingep5.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion del proeyecto</h4>
+                <p>Proyectos de Ingenieros en Contruccion </p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="Imagenes/ingep6.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion del proeyecto</h4>
+                <p>Proyectos de Ingenieria de Transporte </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECCION CONTACTO -->
+<section id="contacto">
+    <h3 class="titulo-seccion">Contactanos ahora</h3>
+    <div class="contenedor-form">
+        <form action="">
+            <div class="fila mitad">
+                <input type="text" placeholder="Nombre completo" class="input-mitad">
+                <input type="text" placeholder="Direccion de Email" class="input-mitad">
+            </div>
+            <div class="fila">
+                <input type="text" placeholder="Tema...." class="input-mitad">
+            </div>
+            <div class="fila">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje...." class="input-full"></textarea>
+            </div>
+            <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+        </form>
+    </div>
+</section>
+<!-- SECCION FOOTER -->
+<footer>
+    <p>Todos los derechos estan reservados - 2022</p>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-telegram"></i></a> 
+    </div>
+</footer> 
+</body>
+</html>
